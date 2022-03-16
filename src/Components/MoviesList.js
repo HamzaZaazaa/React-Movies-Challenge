@@ -1,16 +1,22 @@
 import React from "react"
 import MovieCard from "./MovieCard"
 
-let MoviesList =({moviesList, titleSearch}) => {
+let MoviesList = ({ moviesList, titleSearch }) => {
+
+    const movies = moviesList
+        .filter((el) => {
+            return el.title.toLowerCase().includes(titleSearch.toLowerCase().trim())
+        })
+
+
     return (
-<div className="moviescsslist">
-    {
-    moviesList
-    .filter((el) => el.title.toLowercase().includes(titleSearch.toLowercase().trim()))
-    .map((movie, i) => <MovieCard movie={movie} />)
-    } 
-        
-</div>
+        <div className="moviescsslist">
+            {
+
+                movies.map((movie, i) => <MovieCard movie={movie} key={i} />)
+            }
+
+        </div>
     )
 }
 export default MoviesList
