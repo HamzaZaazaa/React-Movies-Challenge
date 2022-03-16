@@ -25,7 +25,7 @@ export default function AddMovie({ show, setIsShow, saveMovie }) {
 
       <Modal.Dialog >
         <Modal.Header closeButton>
-          <Modal.Title>Modal title</Modal.Title>
+          <Modal.Title>Add A Movie</Modal.Title>
         </Modal.Header>
 
         <Modal.Body>

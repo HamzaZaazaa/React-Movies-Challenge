@@ -15,7 +15,7 @@ function NavBar({ settitleSearch, showModal }) {
             <Nav.Link href="#action1">Home</Nav.Link>
             <Nav.Link href="#action2">Link</Nav.Link>
             <NavDropdown title="Link" id="navbarScrollingDropdown">
-              <NavDropdown.Item onClick={() => showModal(true)}>show</NavDropdown.Item>
+              <NavDropdown.Item onClick={() => showModal(true)}>Add Movies</NavDropdown.Item>
               <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action5">
