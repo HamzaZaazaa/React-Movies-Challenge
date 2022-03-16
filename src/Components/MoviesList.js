@@ -1,12 +1,15 @@
+import React from "react"
 import MovieCard from "./MovieCard"
-function MoviesList({movies}) {
-    return (
-<div className="movieslist">
-    {
-        movies.map((movie, i) => <MovieCard movie={movie} />)
-            
-    } 
 
+let MoviesList =({moviesList, titleSearch}) => {
+    return (
+<div className="moviescsslist">
+    {
+    moviesList
+    .filter((el) => el.title.toLowercase().includes(titleSearch.toLowercase().trim()))
+    .map((movie, i) => <MovieCard movie={movie} />)
+    } 
+        
 </div>
     )
 }
