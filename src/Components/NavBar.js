@@ -1,6 +1,11 @@
 import { Navbar, Container, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap'
+import ReactStars from "react-rating-stars-component";
 
-function NavBar({ settitleSearch, showModal }) {
+
+function NavBar({ settitleSearch, showModal, setRating }) {
+  const ratingChanged = (newRating) => {
+    setRating(newRating)
+  };
   return (
     <Navbar bg="light" expand="lg" sticky="top" >
       <Container fluid>
@@ -23,6 +28,12 @@ function NavBar({ settitleSearch, showModal }) {
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
+          <ReactStars
+              count={5}
+              onChange={ratingChanged}
+              size={24}
+              activeColor="#ffd700"
+          />
           <Form className="d-flex">
             <FormControl
               type="search"
@@ -31,7 +42,7 @@ function NavBar({ settitleSearch, showModal }) {
               aria-label="Search"
               onChange={(e) => settitleSearch(e.target.value)}
             />
-            <Button variant="outline-success">Search</Button>
+            <Button variant="outline-danger">Search</Button>
           </Form>
         </Navbar.Collapse>
       </Container>

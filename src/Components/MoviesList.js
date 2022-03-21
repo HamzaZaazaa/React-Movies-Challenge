@@ -1,11 +1,11 @@
 import React from "react"
 import MovieCard from "./MovieCard"
 
-let MoviesList = ({ moviesList, titleSearch }) => {
+let MoviesList = ({ moviesList, titleSearch, rating }) => {
 
     const movies = moviesList
         .filter((el) => {
-            return el.title.toLowerCase().includes(titleSearch.toLowerCase().trim())
+            return el.title.toLowerCase().includes(titleSearch.toLowerCase().trim()) && el.rate >= rating
         })
 
 
