@@ -1,5 +1,6 @@
 import { Navbar, Container, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap'
 import ReactStars from "react-rating-stars-component";
+import {Link} from 'react-router-dom'
 
 
 function NavBar({ settitleSearch, showModal, setRating }) {
@@ -9,7 +10,7 @@ function NavBar({ settitleSearch, showModal, setRating }) {
   return (
     <Navbar bg="light" expand="lg" sticky="top" >
       <Container fluid>
-        <Navbar.Brand href="#">Movies Checkpoint</Navbar.Brand>
+        <Navbar.Brand>Movies Checkpoint</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -17,9 +18,9 @@ function NavBar({ settitleSearch, showModal, setRating }) {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
-            <Nav.Link href="#action2">Link</Nav.Link>
-            <NavDropdown title="Link" id="navbarScrollingDropdown">
+          <Link to='/' className='NavLinks'> <Nav>Home</Nav> </Link>
+           <Link to='/movies' className='NavLinks'><Nav>Movies</Nav></Link>
+            <NavDropdown title="Link" id="navbarScrollingDropdown" className="dropdown">
               <NavDropdown.Item onClick={() => showModal(true)}>Add Movies</NavDropdown.Item>
               <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
               <NavDropdown.Divider />

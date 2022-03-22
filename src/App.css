@@ -10,3 +10,20 @@
 .moviebtn {
     margin-left: 70px;
 }
+.NavLinks {
+    text-decoration: none;
+    margin-left: 20%;
+    margin-top: 2%;
+    color: black;
+}
+.NavLinks:hover {
+    color: red;
+    font-size: larger;
+}
+.dropdown {
+    margin-left: 30%;
+}
+iframe {
+    margin-top: 5%;
+    margin-left: 30%;
+}

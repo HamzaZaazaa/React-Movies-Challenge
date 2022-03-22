@@ -1,5 +1,7 @@
 import {Card, Button} from "react-bootstrap"
 import ReactStars from "react-rating-stars-component";
+import {Link} from 'react-router-dom'
+
 
 function MovieCard({movie}) {
     return (
@@ -17,7 +19,12 @@ function MovieCard({movie}) {
     <Card.Text>
      {movie.description}
     </Card.Text>
-    <Button variant="danger" className="moviebtn">Watch Movie</Button>
+    <Link to='/watchtrailer'>
+    <Button 
+    variant="danger" 
+    className="moviebtn"
+    >Watch Trailer</Button>
+    </Link>
   </Card.Body>
 </Card>
 
