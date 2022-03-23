@@ -1,6 +1,6 @@
 import {Card, Button} from "react-bootstrap"
 import ReactStars from "react-rating-stars-component";
-import {Link} from 'react-router-dom'
+import {Link, Route, Routes} from 'react-router-dom'
 
 
 function MovieCard({movie}) {
@@ -27,7 +27,6 @@ function MovieCard({movie}) {
     </Link>
   </Card.Body>
 </Card>
-
         </>
     )
 }

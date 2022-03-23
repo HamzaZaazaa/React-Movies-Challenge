@@ -20,13 +20,8 @@ function NavBar({ settitleSearch, showModal, setRating }) {
           >
           <Link to='/' className='NavLinks'> <Nav>Home</Nav> </Link>
            <Link to='/movies' className='NavLinks'><Nav>Movies</Nav></Link>
-            <NavDropdown title="Link" id="navbarScrollingDropdown" className="dropdown">
+            <NavDropdown title="Add Movies" id="navbarScrollingDropdown" className="dropdown">
               <NavDropdown.Item onClick={() => showModal(true)}>Add Movies</NavDropdown.Item>
-              <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
-                Something else here
-              </NavDropdown.Item>
             </NavDropdown>
           </Nav>
           <ReactStars

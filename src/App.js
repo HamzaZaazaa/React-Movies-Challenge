@@ -21,12 +21,8 @@ function App() {
         <AddMovie show={show} setIsShow={setIsShow} saveMovie={setmoviesList} />
         <Routes>
         <Route path="/movies" element={<MoviesList moviesList={moviesList} titleSearch={titleSearch} rating ={rating}/>} />
-        <Route path="/watchtrailer" element={<WatchTrailer/>} />
+        <Route path="/watchtrailer" element={<WatchTrailer moviesList={moviesList} />} />
         </Routes>
-      
-      
-      
-
     </div>
   );
 }

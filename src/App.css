@@ -15,10 +15,11 @@
     margin-left: 20%;
     margin-top: 2%;
     color: black;
+    font-size: larger;
 }
 .NavLinks:hover {
     color: red;
-    font-size: larger;
+    
 }
 .dropdown {
     margin-left: 30%;
