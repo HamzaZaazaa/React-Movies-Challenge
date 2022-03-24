@@ -19,7 +19,7 @@ function MovieCard({movie}) {
     <Card.Text>
      {movie.description}
     </Card.Text>
-    <Link to='/watchtrailer'>
+    <Link to={`/watchtrailer/${movie.id}`}>
     <Button 
     variant="danger" 
     className="moviebtn"

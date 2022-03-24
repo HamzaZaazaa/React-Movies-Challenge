@@ -7,7 +7,7 @@ export const movies=[
       posterUrl:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhYjUIu2o5v5u3rfJpCq5Cz0Q9WK--XdYxai_N2d0ImohPiIOp",
       rate: 5,
-      trailer: "https://www.youtube.com/watch?v=kVrqfYjkTdQ"
+      trailer: "https://www.youtube.com/embed/kVrqfYjkTdQ"
     },
     {
       id: "2",
@@ -17,7 +17,7 @@ export const movies=[
       posterUrl:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkmMH-bEDUS2TmK8amBqgIMgrfzN1_mImChPuMrunA1XjNTSKm",
       rate: 5,
-      trailer: "https://www.youtube.com/watch?v=6hB3S9bIaco"
+      trailer: "https://www.youtube.com/embed/6hB3S9bIaco"
     },
     {
       id: "3",
@@ -27,7 +27,7 @@ export const movies=[
       posterUrl:
         "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UY1200_CR107,0,630,1200_AL_.jpg",
       rate: 4,
-      trailer: "https://www.youtube.com/watch?v=UaVTIH8mujA"
+      trailer: "https://www.youtube.com/embed/UaVTIH8mujA" 
     },
     {
       id: "4",
@@ -37,7 +37,7 @@ export const movies=[
       posterUrl:
         "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg",
       rate: 3,
-      trailer: "https://www.youtube.com/watch?v=EXeTwQWrcwY"
+      trailer: "https://www.youtube.com/embed/EXeTwQWrcwY"
     },
     {
       id: "5",
@@ -47,7 +47,7 @@ export const movies=[
       posterUrl:
         "https://upload.wikimedia.org/wikipedia/commons/b/b5/12_Angry_Men_%281957_film_poster%29.jpg",
       rate: 4,
-      trailer: "https://www.youtube.com/watch?v=_13J_9B5jEk"
+      trailer: "https://www.youtube.com/embed/_13J_9B5jEk"
     },
     {
       id: "6",
@@ -57,7 +57,7 @@ export const movies=[
       posterUrl:
         "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
       rate: 4,
-      trailer: "https://www.youtube.com/watch?v=gG22XNhtnoY"
+      trailer: "https://www.youtube.com/embed/gG22XNhtnoY"
     },
     {
       id: "7",
@@ -66,7 +66,7 @@ export const movies=[
         "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales.",
       posterUrl: "https://www.miramax.com/media/assets/Pulp-Fiction1.png",
       rate: 3,
-      trailer: "https://www.youtube.com/watch?v=s7EdQ4FqbhY"
+      trailer: "https://www.youtube.com/embed/s7EdQ4FqbhY"
     },
     {
       id: "8",
@@ -76,7 +76,7 @@ export const movies=[
       posterUrl:
         "https://upload.wikimedia.org/wikipedia/en/b/be/The_Lord_of_the_Rings_-_The_Return_of_the_King_%282003%29.jpg",
       rate: 4,
-      trailer: "https://www.youtube.com/watch?v=r5X-hFf6Bwo"
+      trailer: "https://www.youtube.com/embed/r5X-hFf6Bwo" 
     },
     {
       id: "9",
@@ -86,7 +86,7 @@ export const movies=[
       posterUrl:
         "https://cdn.hmv.com/r/w-1280/hmv/files/33/3385d6d7-570c-4baa-b344-552f9b6147f5.jpg",
       rate: 4,
-      trailer: "https://www.youtube.com/watch?v=WCN5JJY_wiA"
+      trailer: "https://www.youtube.com/embed/WCN5JJY_wiA"
     },
     {
       id: "10",
@@ -96,6 +96,6 @@ export const movies=[
       posterUrl:
         "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQNgTszE1phYg2G7H4RrgeSEssOw-Kpnh0Si-sF5pVQQrBXJ_6e",
       rate: 2,
-      trailer: "https://www.youtube.com/watch?v=qtRKdVHc-cE"
+      trailer: "https://www.youtube.com/embed/qtRKdVHc-cE"
     }
   ]
